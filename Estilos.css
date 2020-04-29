@@ -2,6 +2,28 @@
     background-color: aliceblue;
 }
 
+.purple-guy{
+	
+	
+	
+	
+	background-color: #8B0CE8;
+	color:aliceblue;
+	text-decoration: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	box-shadow: 0 5px #6D09B5;
+    font-size: 200%;
+	margin-top: 20%;
+	margin-left: 35%;
+	margin-right: 20%;
+	margin-bottom: 10%;
+}
+.purple-guy:active{
+	background-color:#6D09B5 ;
+	box-shadow: none;
+	position:relative;
+	top: 5px;
+}
 .hehe{
 	
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
@@ -49,9 +71,18 @@
 	left:5px;
 	box-shadow: none; }
 	  
-	
-	
-	
+.sans {
+	position: absolute;
+	left: 50px;
+	top:70;
+}
+
+
+.sans-2{
+	position: absolute;
+	top: 70px;
+	right: 30px;
+}
 	
 	
 	
