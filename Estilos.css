@@ -1,0 +1,10 @@
+*{
+    background-color: aliceblue;
+}
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 500%;
+    margin-top: 20%;
+    margin-left: 20%;
+}
