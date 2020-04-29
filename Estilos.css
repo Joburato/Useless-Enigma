@@ -2,17 +2,32 @@
     background-color: aliceblue;
 }
 
+.hehe{
+	font: bolder;
+	background-color:#A12306;
+	color: aliceblue;
+	box-shadow:0 5px #702601;
+	text-decoration: none;}
+.hehe:active { 
+	background-color: #702601;
+	box-shadow: none;
+	position:relative;
+	top: 5px;
+}
+
+
 .botao1{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 200%;
 	margin-top: 20%;
 	margin-left: 20%;
 	margin-right: 20%;
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 	border:none;
 	cursor:pointer;
 	padding: 10px;
 	background-clip: padding-box;
+	text-decoration: none;
 }
 .botao-cor {
 	background-color:#008596;
