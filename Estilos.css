@@ -3,7 +3,8 @@
 }
 
 .hehe{
-	font: bolder;
+	
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 	background-color:#A12306;
 	color: aliceblue;
 	box-shadow:0 5px #702601;
