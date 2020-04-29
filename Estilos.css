@@ -2,11 +2,43 @@
     background-color: aliceblue;
 }
 
-button{
+.botao1{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 500%;
+	font-size: 200%;
 	margin-top: 20%;
 	margin-left: 20%;
 	margin-right: 20%;
 	margin-bottom: 20%;
+	border:none;
+	cursor:pointer;
+	padding: 10px;
+	background-clip: padding-box;
 }
+.botao-cor {
+	background-color:#008596;
+	color: aliceblue;
+	box-shadow:5px 5px 5px 0px #000; 
+	
+}
+.botao-cor:hover {
+	background-color: #006370;
+	color: aliceblue;
+	box-shadow:5px 5px 5px 0px #000; 
+}
+.botao-cor:active {
+	background-color:#00414A;
+	color: aliceblue;
+	position:relative;
+	top: 5px;
+	left:5px;
+	box-shadow: none; }
+	  
+	
+	
+	
+	
+	
+	
+	
+	
+	
