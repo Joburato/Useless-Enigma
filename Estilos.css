@@ -1,6 +1,4 @@
-*{
-    background-color: aliceblue;
-}
+
 
 .logo {
 	height: 100px;
@@ -89,9 +87,29 @@
 	top: 100px;
 	right: 30px;
 }
+
+body {
+	animation: 10000ms ease-in-out infinite color-change;
+  }
+  
+  @keyframes color-change {
+	0% {
+	  background-color: teal;
+	}
+	20% {
+	  background-color: gold;
+	}
+	40% {
+	  background-color: indianred;
+	}
+	60% {
+	  background-color: violet;
+	}
+	80% {
+	  background-color: green;
+	}
+	100% {
+	  background-color: teal;
+	}
 	
-	
-	
-	
-	
-	
+  }	

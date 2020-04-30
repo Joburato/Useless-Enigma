@@ -1,0 +1,9 @@
+*{
+    background-color: rgb(245, 245, 245);
+}
+
+#imgerror{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
