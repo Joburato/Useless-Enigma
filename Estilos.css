@@ -43,24 +43,6 @@
 	position:relative;
 	top: 5px;
 }
-.hehe1{
-	
-	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	background-color:#A12306;
-	color: aliceblue;
-	box-shadow:0 5px #702601;
-	text-decoration: none;
-	position: absolute;
-    right: 05px;
-}
-
-.hehe1:active { 
-	background-color: #702601;
-	box-shadow: none;
-	position:relative;
-	top: 5px;
-}
-
 
 
 .botao1{
