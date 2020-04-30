@@ -7,3 +7,5 @@ function redirecionar(){
     }
 
 }
+
+alert("welcome to hell")
