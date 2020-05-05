@@ -1,9 +1,12 @@
 *{
-    background-color: rgb(245, 245, 245);
+    background-color: #f7f7f7;
 }
 
-#imgerror{
+input{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: auto;
+    outline: none;
+
 }
