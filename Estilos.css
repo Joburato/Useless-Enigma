@@ -128,12 +128,7 @@ body {
 	float: right;
 }
 
-.tudo{
-	
-}
 
-.wrapper{
+.tudo{
 	display: flex;
-	justify-content: flex-end;
-	align-items: flex-start;
 }
