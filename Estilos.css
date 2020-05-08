@@ -1,104 +1,12 @@
 *{
-margin: 0;
-border: 0;
-padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
-
-.logo {
-	height: 100px;
-	width: 200px;
-	position: absolute;
-	top: 150px;
-	left: 550px;
-}
-
-.purple-guy{
-	background-color: #8B0CE8;
-	color:aliceblue;
-	text-decoration: none;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	box-shadow: 0 5px #6D09B5;
-    font-size: 200%;
-	margin-top: 20%;
-	margin-left: 37%;
-	margin-right: 20%;
-	margin-bottom: 10%;
-}
-
-.purple-guy:active{
-	background-color:#6D09B5 ;
-	box-shadow: none;
-	position:relative;
-	top: 5px;
-}
-
-.hehe{	
-	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	background-color:#A12306;
-	color: aliceblue;
-	box-shadow:0 5px #702601;
-	text-decoration: none;
-}
-
-.hehe:active{ 
-	background-color: #702601;
-	box-shadow: none;
-	position:relative;
-	top: 5px;
-}
-
-
-.botao1{
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-size: 200%;
-	margin-top: 20%;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-bottom: 10%;
-	border:none;
-	cursor:pointer;
-	padding: 10px;
-	background-clip: padding-box;
-	text-decoration: none;
-}
-
-.botao-cor{
-	background-color:#008596;
-	color: aliceblue;
-	box-shadow:5px 5px 5px 0px #000;
-}
-
-.botao-cor:hover {
-	background-color: #006370;
-	color: aliceblue;
-	box-shadow:5px 5px 5px 0px #000; 
-}
-
-.botao-cor:active {
-	background-color:#00414A;
-	color: aliceblue;
-	position:relative;
-	top: 5px;
-	left:5px;
-	box-shadow: none;
-}
-	  
-.sans {
-	position: absolute;
-	left: 50px;
-	top:100px;
-}
-
-.sans-2 {
-	position: absolute;
-	top: 100px;
-	right: 60px;
-}
-
+	
 body {
 	animation: 10000ms ease-in-out infinite color-change;
-}
-  
+} 
 @keyframes color-change{
 	0% {
 	  background-color: teal;
@@ -121,14 +29,21 @@ body {
 	
 }
 
-.barra {
-	width: 17px;
+.container{
+	width: 100vw;
 	height: 100vh;
-	background-color: rgb(238, 238, 238);
-	float: right;
+	display: flex;
+	flex-direction: row-reverse;
 }
 
+.barra{
+	height: 100vh;
+	width: 17px;
+	background-color: rgb(238, 238, 238);
+}
 
-.tudo{
-	display: flex;
+.scroll{
+	width: 10px;
+	height: 50px;
+	background-color: blue;
 }
