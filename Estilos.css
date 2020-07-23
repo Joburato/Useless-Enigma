@@ -50,3 +50,20 @@ body {
 		display: none;
 	}
 }
+
+.lixeira{
+	
+	color: aliceblue;
+	margin-left: 200px;
+}
+
+.mizu{
+	margin-left: 0px;
+	margin-right: 250px;
+	
+}
+
+.doutor{
+	margin-right: 0px;
+	margin-left: 383px;
+}
