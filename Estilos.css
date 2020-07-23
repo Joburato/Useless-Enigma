@@ -54,14 +54,17 @@ body {
 .lixeira{
 	
 	color: aliceblue;
-	margin-left: 200px;
+	float: inherit;
+	margin-left: 100px;
+	
 }
 
 .mizu{
 	
-	
+	margin-right: 200px;
+	float: left;
 }
 
 .doutor{
-	
+	float: right;
 }
